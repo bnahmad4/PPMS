@@ -1,0 +1,6 @@
+{
+  "name": "NPA Digital Port Pass Management System (PPMS)",
+  "description": "Enterprise digital portal for Nigerian Ports Authority (NPA) port pass application, document verification, GM Security approval, billing coordination, biometric scheduling, and collection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

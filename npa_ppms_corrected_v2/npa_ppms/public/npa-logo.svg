@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+  <defs>
+    <linearGradient id="npaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#087443" />
+      <stop offset="100%" stop-color="#065C35" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C158" />
+      <stop offset="100%" stop-color="#C9A24D" />
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Anchor and Shield -->
+  <g transform="translate(15, 10)">
+    <!-- Outer Crest Circle -->
+    <circle cx="40" cy="40" r="38" fill="url(#npaGrad)" stroke="url(#goldGrad)" stroke-width="3" />
+    <!-- Inner White Circle -->
+    <circle cx="40" cy="40" r="32" fill="#FFFFFF" />
+    <!-- Green Star/Ring -->
+    <circle cx="40" cy="40" r="27" fill="none" stroke="#087443" stroke-width="1.5" stroke-dasharray="2 2" />
+    
+    <!-- Maritime Anchor Emblem -->
+    <path d="M 40 20 L 40 55 M 34 26 L 46 26 M 26 44 C 28 58 52 58 54 44 M 23 44 L 29 44 M 51 44 L 57 44" 
+          stroke="#087443" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="40" cy="20" r="4" fill="none" stroke="#087443" stroke-width="2.5" />
+    <polygon points="40,58 37,62 43,62" fill="#087443" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(105, 22)">
+    <text x="0" y="22" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="19" font-weight="800" fill="#087443" letter-spacing="0.5">NIGERIAN PORTS AUTHORITY</text>
+    <text x="0" y="40" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#123B63" letter-spacing="1.2">PORT PASS MANAGEMENT SYSTEM</text>
+    <text x="0" y="55" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9.5" font-weight="500" fill="#64748B" letter-spacing="0.4">Efficiency • Security • Transparency • Compliance</text>
+  </g>
+</svg>

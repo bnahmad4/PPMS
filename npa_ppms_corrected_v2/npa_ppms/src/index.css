@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+
+@layer base {
+  input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+  select,
+  textarea {
+    background-color: #e2e8f0 !important;
+    color: #0f172a;
+    border-color: #64748b !important;
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: #475569;
+    opacity: 1;
+  }
+
+  input:focus, select:focus, textarea:focus {
+    outline-color: #087443;
+  }
+}
+
+@media print {
+  header, aside, .print\:hidden {
+    display: none !important;
+  }
+  body, main {
+    background: #FFFFFF !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
